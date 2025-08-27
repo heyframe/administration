@@ -1,0 +1,318 @@
+{
+  "global": {
+    "error-codes": {
+      "DUPLICATED_PRODUCT_EXPORT_FILE_NAME": "该文件名已被使用，请选择其他名称。"
+    }
+  },
+  "sw-sales-channel": {
+    "general": {
+      "tooltipOpenStorefront": "打开商城",
+      "titleMenuItems": "销售渠道",
+      "titleMenuMoreItems": "更多",
+      "manageSalesChannels": "管理销售渠道",
+      "addSalesChannel": "添加销售渠道"
+    },
+    "list": {
+      "title": "销售渠道",
+      "subTitle": "销售渠道让您可以通过社交媒体、商城、市场或线下向客户销售商品。",
+      "placeholderSearchBar": "搜索销售渠道...",
+      "buttonAddSalesChannel": "添加销售渠道",
+      "columnName": "销售渠道",
+      "columnType": "类型",
+      "columnStatus": "状态",
+      "columnCreatedAt": "创建时间",
+      "columnFavourite": "我的收藏",
+      "status": {
+        "maintenance": "维护中",
+        "online": "在线",
+        "offline": "离线"
+      },
+      "contextMenuEdit": "编辑",
+      "productsLabel": "商品",
+      "productsCount": "商品 | 商品 | 商品"
+    },
+    "modal": {
+      "title": "添加销售渠道",
+      "buttonAddChannel": "添加销售渠道",
+      "titleDetailPrefix": "{name} - 详情",
+      "buttonShowDetails": "显示详情",
+      "buttonBack": "返回",
+      "titleDescription": "信息",
+      "messageNoProductStreams": "要使用产品比较，必须先创建一个动态产品组。"
+    },
+    "detail": {
+      "messageSaveSuccess": "销售渠道 \"{name}\" 已保存。",
+      "messageSaveError": "无法保存销售渠道 \"{name}\"。请检查输入内容。",
+      "messageActivateWithoutThemeError": "无法激活销售渠道 \"{name}\"。激活的销售渠道必须关联主题。",
+      "messageMeasurementUnitsSetError": "无法加载产品测量单位的系统配置。",
+      "activateDisable": "请在激活和保存销售渠道前分配主题。",
+      "buttonSave": "保存",
+      "buttonCreateNewApiKeys": "创建新的 API 密钥",
+      "tabBase": "常规",
+      "tabTheme": "主题",
+      "tabAnalytics": "分析",
+      "tabProductComparison": "模板",
+      "tabProducts": "商品",
+      "titleProductComparisonTemplate": "模板",
+      "titleProductComparisonPreview": "预览",
+      "titleProductComparisonPreviewErrors": "生成错误",
+      "labelAccessKeyField": "API 访问密钥",
+      "messageAPIError": "无法生成 API 访问密钥。",
+      "titleGeneralSettings": "常规设置",
+      "labelInputName": "名称",
+      "labelInputActive": "激活",
+      "labelInputShippingMethods": "配送方式",
+      "labelInputPaymentMethods": "支付方式",
+      "labelInputCountries": "国家",
+      "countryMultiSelectHelpText": "如果未显示所有可用国家，请输入名称以访问未显示的国家。国家可在 设置/国家 中创建或编辑。",
+      "helpTextTaxCalculation": {
+        "label": "如果启用了税务提供商，这些设置可能会被覆盖。您可以在 {link} 查看。",
+        "linkText": "设置"
+      },
+      "labelInputTaxCalculation": "税务计算",
+      "labelOptionTaxVertical": "纵向",
+      "labelOptionTaxHorizontal": "横向",
+      "labelInputCurrencies": "货币",
+      "labelInputLanguages": "语言",
+      "labelInputUrl": "网址",
+      "labelInputCategories": "分类",
+      "titleOptionsCard": "选项",
+      "labelInputDefaultShippingMethod": "默认配送方式",
+      "labelInputDefaultPaymentMethod": "默认支付方式",
+      "labelInputDefaultCountry": "默认国家",
+      "labelInputDefaultCurrency": "默认货币",
+      "labelInputDefaultLanguage": "默认语言",
+      "tooltipDisabledShippingMethod": "此配送方式必须激活才能被选为默认配送方式。",
+      "tooltipDisabledPaymentMethod": "此支付方式必须激活才能被选为默认支付方式。",
+      "tooltipDisabledCountry": "此国家必须激活才能被选为默认国家。",
+      "warningDisabledCountries": "国家 <b>{name}</b> 未激活。 | 国家 <b>{name}</b> 和 <b>{addition}</b> 未激活。",
+      "warningDisabledPaymentMethod": "分配给此销售渠道的部分支付方式当前不可用。请检查 <a href=\"{paymentSettingsLink}\">设置</a> 中的这些支付方式:<br/> <b>{separatedList}</b>",
+      "warningDisabledShippingMethod": "配送方式 <b>{name}</b> 未激活。 | 配送方式 <b>{name}</b> 和 <b>{addition}</b> 未激活。",
+      "warningDisabledAddition": "{amount} 个其他",
+      "warningUnservedLanguage": "语言 <b>{list}</b> 未分配给任何域。要在此销售渠道中使用该语言，请先创建相应域。 | 语言 <b>{list}</b> 未分配给任何域。要在此销售渠道中使用这些语言，请先创建相应域。",
+      "textDeleteInfo": "小心，您即将永久删除此销售渠道！如果继续，销售渠道及其所有设置将不再可用。但删除销售渠道不会影响现有订单和分类。",
+      "buttonDelete": "删除销售渠道",
+      "deleteModalTitle": "删除销售渠道",
+      "textConfirmDelete": "确定要删除此销售渠道吗？",
+      "buttonConfirmDelete": "删除",
+      "textHeadline": "新销售渠道",
+      "placeholderName": "输入销售渠道名称...",
+      "placeholderInputCategories": "添加分类...",
+      "titleDomains": "域名",
+      "titleDomainItem": "网址 {index}",
+      "labelInputCurrency": "货币",
+      "labelInputLanguage": "语言",
+      "labelInputSnippet": "文本片段集",
+      "buttonDeleteDomain": "删除域名",
+      "messageDeleteDomainError": "域名 \"{url}\" 无法删除，因为它与现有的产品导出相关联。",
+      "buttonAddDomain": "添加域名",
+      "deleteDomainModalTitle": "删除域名",
+      "textConfirmDeleteDomain": "确定要删除此域名吗？销售渠道将无法通过 \"{url}\" 访问。",
+      "buttonConfirmDeleteDomain": "删除",
+      "customerGroup": "客户组",
+      "favouriteLabel": "标记销售渠道为收藏",
+      "navigation": "导航",
+      "navigationCategoryId": "主导航入口",
+      "navigationCategoryDepth": "导航层级",
+      "navigationCategoryHelpText": "对于此入口，无法选择“可自定义链接”或“结构元素”类型的分类。",
+      "footerCategory": "页脚导航入口",
+      "serviceCategory": "页脚服务导航入口",
+      "titleOptionsApiKey": "API 访问",
+      "textDeleteSalesChannelWarning": "删除此销售渠道将是永久性的。",
+      "buttonCopyApiKeyButton": "复制 API 密钥",
+      "titleStatus": "状态",
+      "titleGeneralInformation": "基本信息",
+      "titleAccount": "账户",
+      "titleDeleteSalesChannel": "删除销售渠道",
+      "titleProductSync": "产品同步",
+      "titleSyncedProducts": "已同步产品",
+      "titleCategoryMapping": "分类映射",
+      "titleTemplate": "模板",
+      "titleDomainHeadline": "创建域名网址",
+      "buttonEditDomain": "编辑域名",
+      "titleCreateDomain": "创建域名",
+      "titleEditDomain": "编辑域名 \"{name}\"",
+      "textDomainDescription": "每种语言必须有自己的域名，才能在在线销售渠道中使用。您也可以在这里添加自定义域名。",
+      "textApiAccessDescription": "要获取 API 访问权限，需要使用下面显示的 API 密钥。重新生成密钥将覆盖旧密钥，并终止所有使用旧密钥设置的访问。<strong>此操作不可撤销。</strong>",
+      "textActiveDescription": "关闭销售渠道会使其对访问者和 API 连接不可访问。",
+      "columnDomainUrl": "网址",
+      "columnDomainLanguage": "语言",
+      "columnDomainSnippetSet": "文本片段集",
+      "maintenanceModeTitle": "维护模式",
+      "maintenanceModeDescription": "在维护模式下，销售渠道对访问者不可见。但您可以通过白名单 IP 访问，从而在维护屏幕中安全操作销售渠道数据。",
+      "labelMaintenanceActive": "维护中",
+      "ipAddressAllowlist": "IP 地址白名单",
+      "ipAddressAllowlistHelpText": "将 IP 地址添加到白名单，以允许选择性访问商城。可添加 IPv4 和 IPv6。",
+      "basicinformationLink": "在此修改默认维护布局",
+      "columnDomainCurrency": "货币",
+      "columnDomainUnitSystem": "单位系统",
+      "products": {
+        "titleEmptyState": "未找到更多商品",
+        "titleEmptyStateTable": "未找到匹配商品",
+        "buttonAddProducts": "添加 {productCount} 个商品 | 添加 {productCount} 个商品 | 添加 {productCount} 个商品",
+        "columnProductName": "商品名称",
+        "columnActive": "激活",
+        "columnProductNumber": "商品编号",
+        "inheritVariantNotRemovableTooltip": "此变体产品的销售渠道分配继承自其主产品。"
+      },
+      "productComparison": {
+        "inputHeaderLabel": "表头行",
+        "inputBodyLabel": "产品行",
+        "inputFooterLabel": "表尾行",
+        "buttonTestLabel": "测试模板",
+        "buttonPreviewLabel": "生成预览",
+        "settings": "产品导出",
+        "fileName": "文件名",
+        "placeholderFileName": "heyframe.csv",
+        "lastGenerationLabel": "上次生成于：",
+        "notYetGenerated": "尚未生成此导出。",
+        "encoding": "编码",
+        "placeholderSelectEncoding": "请选择编码格式...",
+        "fileFormat": "文件格式",
+        "placeholderSelectFileFormat": "请选择文件格式...",
+        "accessKey": "访问密钥",
+        "accessUrl": "导出 URL",
+        "buttonCreateNewAccessKey": "创建新访问密钥",
+        "productStream": "动态产品组",
+        "fileFormatLabels": {
+          "csv": "CSV",
+          "xml": "XML"
+        },
+        "includeVariants": "将变体作为单独商品导出",
+        "interval": "间隔",
+        "generateByCronjob": "通过计划任务生成",
+        "notificationMessageValidateSuccessful": "未发生错误。",
+        "intervalLabels": {
+          "0": "实时",
+          "120": "2 分钟",
+          "300": "5 分钟",
+          "600": "10 分钟",
+          "900": "15 分钟",
+          "1800": "30 分钟",
+          "3600": "1 小时",
+          "7200": "2 小时",
+          "14400": "4 小时",
+          "28800": "8 小时",
+          "43200": "12 小时",
+          "86400": "1 天",
+          "172800": "2 天",
+          "259200": "3 天",
+          "345600": "4 天",
+          "432000": "5 天",
+          "518400": "6 天",
+          "604800": "1 周"
+        },
+        "storefront": "商城销售渠道",
+        "storefrontDomain": "商城域名",
+        "storefrontDomainLanguage": {
+          "label": "语言",
+          "help": "由销售渠道域自动选择"
+        },
+        "storefrontDomainCurrency": {
+          "label": "货币"
+        },
+        "storefrontSalesChannelCustomerGroup": {
+          "label": "客户组",
+          "help": "由销售渠道自动选择"
+        },
+        "messageAccessKeyChanged": "访问密钥和导出 URL 仅在保存销售渠道后生效。",
+        "templates": {
+          "label": "模板",
+          "placeholderSelectTemplate": "选择模板...",
+          "template-label": {
+            "billiger-de": "billiger.de (CSV)",
+            "idealo": "idealo.de (CSV)",
+            "google-product-search-de": "Google Shopping (XML)"
+          },
+          "modal-title": "应用模板",
+          "modal-message": "如果应用模板，将覆盖此销售渠道中的现有数据。设置和模板选项卡将受此更改影响。",
+          "modal-confirm": "应用模板",
+          "message": {
+            "template-applied-message": "模板数据已应用，但尚未保存。请保存此销售渠道以保留更改。"
+          }
+        },
+        "cliCommand": "用于生成产品导出的 CLI 命令"
+      },
+      "hreflang": {
+        "title": "Hreflang",
+        "titleCard": "Hreflang 集成",
+        "titleDescription": "Hreflang 元标签用于将内容唯一分配给语言。Google 会在搜索结果中明确显示相应语言。",
+        "enableCheckbox": "启用 hreflang",
+        "defaultDomain": "默认域名",
+        "domainSettings": {
+          "label": "Hreflang 本地化",
+          "byIso": "根据 ISO 标准本地化",
+          "byIsoHelpText": "本地化基于精确 ISO。除了语言，还提供目标国家信息。",
+          "byAbbreviation": "根据语言本地化",
+          "byAbbreviationHelpText": "本地化仅通过语言完成，可针对多个目标国家输出。"
+        }
+      },
+      "analytics": {
+        "cardTitle": "Google Analytics",
+        "headline": "Google Analytics 集成",
+        "description": "通过 Google Analytics，您可以收集并分析商城数据。要使用此功能，需要 Google 账号。如尚未拥有，请注册：<a href=\"https://analytics.google.com/\" target=\"_blank\">Google Analytics</a>。注册成功后，您将获得跟踪 ID，填入下方即可启用集成。",
+        "fields": {
+          "trackingId": {
+            "label": "跟踪 ID",
+            "placeHolder": "输入跟踪 ID...",
+            "helpText": "登录 Google Analytics 账号后，将获得格式为 `G-XXXXXXXXXX` 的跟踪 ID。如果使用 Google Tag Manager，请使用 `GTM-` 开头的 ID，商城将自动包含 Tag Manager 脚本。否则使用 `https://www.googletagmanager.com/gtag/js?id=...`。"
+          },
+          "active": {
+            "label": "启用 Google Analytics"
+          },
+          "trackOrders": {
+            "label": "跟踪订单"
+          },
+          "anonymizeIp": {
+            "label": "匿名化 IP"
+          }
+        }
+      },
+      "titleShippingPayment": "支付和配送",
+      "labelTaxCalculation": "税务计算",
+      "descriptionTaxCalculation": "更改此设置可能会导致外部支付提供商的结算问题。请在修改前检查您使用的支付提供商如何计算增值税。",
+      "taxCalculation": {
+        "verticalName": "按列（纵向）计算",
+        "verticalDescription": "增值税按订单总额计算。结账时不显示单独增值税值。",
+        "horizontalName": "逐行（横向）计算",
+        "horizontalDescription": "增值税按每个购物车条目计算。结账时显示每个条目的增值税。总增值税通过所有条目增值税求和计算。"
+      },
+      "productAssignmentModal": {
+        "title": "添加商品",
+        "singleProducts": "商品选择",
+        "categories": {
+          "title": "分类选择",
+          "textInfo": "此处的分配为静态，只反映当前商品状态。后续分类产品组合更改不会影响分配。",
+          "textSearch": "搜索分类 ...",
+          "emptySearchResults": "未找到分类。"
+        },
+        "dynamicProductGroups": {
+          "title": "产品组选择",
+          "infoText": "此处分配为静态，只反映当前商品状态。后续动态产品组组合更改不会影响分配。",
+          "columnName": "名称",
+          "searchFieldPlaceholder": "搜索动态产品组...",
+          "titleNoProductStreamsMatching": "未找到匹配动态产品组。",
+          "titleNoProductStreamsAvailable": "暂无动态产品组。"
+        }
+      },
+      "measurementSystem": {
+        "labelDefaultUnitSystem": "默认单位系统",
+        "labelDefaultLengthUnit": "默认长度单位",
+        "labelDefaultWeightUnit": "默认重量单位",
+        "labelUnitSystem": "单位系统",
+        "labelLengthUnit": "长度单位",
+        "labelWeightUnit": "重量单位"
+      }
+    },
+    "sw-sales-channel-defaults-select": {
+      "messageError": "该值已被此域使用：\"{url}\"。"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "sales_channel": {
+        "label": "销售渠道"
+      }
+    }
+  }
+}

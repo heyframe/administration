@@ -1,0 +1,9 @@
+{
+  "sw-privilege-error": {
+    "general": {
+      "mainMenuItemGeneral": "无权访问",
+      "descriptionTextModule": "没有权限访问此页面。请联系管理员以获取访问权限。",
+      "goBack": "返回"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "sw-review": {
+    "general": {
+      "mainMenuItemList": "评价",
+      "mainMenuItemGeneral": "评价",
+      "placeholderSearchBar": "搜索评价...",
+      "descriptionTextModule": "在这里管理评价。"
+    },
+    "list": {
+      "textReviewOverview": "评价",
+      "columnProduct": "产品",
+      "columnPoints": "星级",
+      "columnUser": "客户",
+      "columnStatus": "已审核",
+      "columnCreatedAt": "创建时间",
+      "columnComment": "评论内容",
+      "columnTitle": "评价标题",
+      "placeholderSearchBar": "搜索评价...",
+      "messageEmpty": "暂无评价",
+      "messageEmptySubline": "在这里管理评价",
+      "titleSidebarItemRefresh": "刷新"
+    },
+    "detail": {
+      "textHeadline": "评价",
+      "cardTitleReviewInfo": "评价信息",
+      "cardTitleReviewProperties": "属性",
+      "labelTitle": "标题",
+      "labelPoints": "星级",
+      "labelUser": "用户",
+      "labelSalesChannel": "销售渠道",
+      "labelCreatedAt": "创建时间",
+      "labelProduct": "产品",
+      "labelEmail": "邮箱",
+      "labelLanguage": "语言",
+      "labelPositive": "好评数",
+      "labelNegative": "差评数",
+      "labelStatus": "已审核",
+      "labelContent": "内容",
+      "labelComment": "评论",
+      "labelCustomer": "客户",
+      "titleCardComment": "评论",
+      "placeholderComment": "输入评论...",
+      "review1PointRatingText": "不满意",
+      "review2PointRatingText": "一般",
+      "review3PointRatingText": "良好",
+      "review4PointRatingText": "很好",
+      "review5PointRatingText": "优秀"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "review": {
+        "label": "评价"
+      }
+    }
+  }
+}

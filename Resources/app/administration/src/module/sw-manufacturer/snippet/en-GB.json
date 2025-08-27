@@ -1,37 +1,37 @@
 {
   "sw-manufacturer": {
     "general": {
-      "mainMenuItemList": "Manufacturers",
-      "mainMenuItemGeneral": "Manufacturers",
-      "placeholderSearchBar": "Search manufacturers..."
+      "mainMenuItemList": "制造商",
+      "mainMenuItemGeneral": "制造商",
+      "placeholderSearchBar": "搜索制造商..."
     },
     "list": {
-      "textManufacturerOverview": "Manufacturers",
-      "textTotalManufacturer": "No manufacturers | One manufacturer | {count} manufacturers",
-      "buttonAddManufacturer": "Add manufacturer",
-      "columnName": "Manufacturer",
-      "columnLink": "Website"
+      "textManufacturerOverview": "制造商",
+      "textTotalManufacturer": "暂无制造商 | 1 个制造商 | {count} 个制造商",
+      "buttonAddManufacturer": "添加制造商",
+      "columnName": "制造商",
+      "columnLink": "网站"
     },
     "detail": {
-      "textHeadline": "New manufacturer",
-      "textMediaSelection": "Media selection",
-      "buttonSave": "Save",
-      "cardTitleManufacturerInfo": "Manufacturer information",
-      "labelName": "Name",
-      "labelDescription": "Description",
-      "labelLink": "Website",
-      "placeholderName": "Enter manufacturer name...",
-      "placeholderDescription": "Enter description...",
-      "placeholderLink": "Enter manufacturer website...",
-      "messageSaveSuccess": "Manufacturer \"{name}\" has been saved.",
+      "textHeadline": "新建制造商",
+      "textMediaSelection": "媒体选择",
+      "buttonSave": "保存",
+      "cardTitleManufacturerInfo": "制造商信息",
+      "labelName": "名称",
+      "labelDescription": "描述",
+      "labelLink": "网站",
+      "placeholderName": "输入制造商名称...",
+      "placeholderDescription": "输入描述...",
+      "placeholderLink": "输入制造商网站...",
+      "messageSaveSuccess": "制造商 \"{name}\" 已保存。",
       "labelLogo": "Logo",
-      "labelUseAsLogo": "Use as Logo"
+      "labelUseAsLogo": "用作 Logo"
     }
   },
   "sw-privileges": {
     "permissions": {
       "product_manufacturer": {
-        "label": "Manufacturers"
+        "label": "制造商"
       }
     }
   }

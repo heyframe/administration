@@ -69,13 +69,13 @@ describe('ASYNC app/adapter/view/vue.adapter.js', () => {
 
         HeyFrame.Store.get('system').locales = [
             'en-GB',
-            'de-DE',
+            'zh-CN',
         ];
 
         HeyFrame.Store.get('session').setAdminLocaleState({
             locales: [
                 'en-GB',
-                'de-DE',
+                'zh-CN',
             ],
             locale: 'en-GB',
             languageId: '12345678',
@@ -739,7 +739,7 @@ describe('ASYNC app/adapter/view/vue.adapter.js', () => {
         });
 
         it('should update the i18n global locale to update the locale in UI when the locale in the session store changes', async () => {
-            const expectedLocale = 'de-DE';
+            const expectedLocale = 'zh-CN';
 
             HeyFrame.Store.get('session').setAdminLocaleState({
                 locales: [

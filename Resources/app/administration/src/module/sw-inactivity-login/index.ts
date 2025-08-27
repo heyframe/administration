@@ -1,5 +1,5 @@
 import type { RouteLocationNamedRaw } from 'vue-router';
-import deDE from './snippet/de-DE.json';
+import zhCN from './snippet/zh-CN.json';
 import enGB from './snippet/en-GB.json';
 
 const { Component, Module } = HeyFrame;
@@ -22,7 +22,7 @@ Module.register('sw-inactivity-login', {
     color: '#F19D12',
 
     snippets: {
-        'de-DE': deDE,
+        'zh-CN': zhCN,
         'en-GB': enGB,
     },
 

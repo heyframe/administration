@@ -1,0 +1,87 @@
+{
+  "sw-settings-heyframe-updates": {
+    "general": {
+      "menuTitle": "HeyFrame 更新",
+      "title": "HeyFrame 更新 ({version})",
+      "emptyTitle": "HeyFrame 更新",
+      "emptyState": "您已使用最新版本。",
+      "checkForUpdates": "检查更新",
+      "currentVersion": "当前版本："
+    },
+    "cards": {
+      "info": "更新内容",
+      "requirements": "系统要求",
+      "extensions": "插件兼容性",
+      "updating": "更新中..."
+    },
+    "notifications": {
+      "updateStarted": "更新已开始。",
+      "updateStopped": "更新已停止。",
+      "downloadFailed": "下载失败。",
+      "unpackFailed": "解压失败。",
+      "deactivationFailed": "无法停用插件。",
+      "alreadyUpToDate": "您已使用最新版本。"
+    },
+    "infos": {
+      "backupCheckboxLabel": "我已创建备份，现在执行更新。",
+      "startUpdate": "开始更新",
+      "requirementsNotMet": "系统要求未全部满足。",
+      "progress": {
+        "download": "正在下载更新文件...",
+        "deactivate": "正在停用插件...",
+        "unpack": "正在解压更新文件..."
+      }
+    },
+    "requirements": {
+      "columns": {
+        "message": "要求",
+        "status": "状态"
+      },
+      "message": {
+        "phpVersion": "最低PHP版本: {minVersion}。当前PHP版本: {currentVersion}。",
+        "mysqlVersion": "最低MySQL版本: {minVersion}。当前MySQL版本: {currentVersion}。",
+        "writeableCheckValid": "以下目录和文件可写：<br/>{checkedDirectories}",
+        "writeableCheckFailed": "以下目录和文件不可写：<br>{failedDirectories}",
+        "validHeyFrameLicense": "您当前的HeyFrame版本已过期，建议更新至最新版本。",
+        "invalidHeyFrameLicense": "未检测到有效的HeyFrame订阅。<br>无法执行自动更新。<br>您可以通过<a target=\"_blank\" href=\"https://account.heyframe.net\">HeyFrame账户页面</a>购买订阅。"
+      },
+      "ready": "已就绪",
+      "notReady": "未就绪"
+    },
+    "plugins": {
+      "columns": {
+        "name": "插件",
+        "available": "兼容性"
+      },
+      "actions": {
+        "openMyExtensions": "我的插件",
+        "deactivateAll": "停用所有插件",
+        "deactivateIncompatible": "停用不兼容插件",
+        "deactivateNone": "我已知风险，仍然希望更新HeyFrame而不先停用不兼容插件。我清楚，更新后HeyFrame无法保证系统功能正常。",
+        "recommended": "(推荐)"
+      },
+      "pluginNotInStore": "该插件在商店中不可用，请联系插件作者。",
+      "pluginWillBeDeactivatedHint": "(更新时此插件将被停用)"
+    },
+    "updateModal": {
+      "actions": {
+        "install": "安装",
+        "goToUpdate": "立即更新"
+      },
+      "messageIncompatible": "部分已安装插件与最新HeyFrame版本不兼容。如继续更新，可能出现未知问题并严重影响系统。HeyFrame可在更新过程中自动停用不兼容插件，以确保系统正常运行。更新完成后，您可手动重新启用这些插件。",
+      "messageNotInStore": "部分已安装插件未通过兼容性测试，请联系插件作者获取更多信息。强烈建议在更新前先创建备份。",
+      "messageOkay": "所有更新条件已满足。请在更新前务必创建备份。",
+      "messageUpdateCheck": "当前版本可更新至 {version}。您希望执行什么操作？",
+      "backupLabel": "是，我已创建备份。"
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "system": {
+        "core_update": "执行更新",
+        "plugin_maintain": "管理插件",
+        "plugin_upload": "上传插件"
+      }
+    }
+  }
+}

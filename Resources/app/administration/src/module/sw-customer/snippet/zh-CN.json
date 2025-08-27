@@ -1,0 +1,306 @@
+{
+  "sw-customer": {
+    "error": {
+      "COMPANY_IS_REQUIRED": "商业客户必须填写公司名称。",
+      "passwordDoNotMatch": "新密码与确认密码不匹配。"
+    },
+    "notification": {
+      "requiredFields": "请填写所有必填字段。"
+    },
+    "general": {
+      "mainMenuItemGeneral": "客户",
+      "mainMenuItemList": "客户概览",
+      "mainMenuItemAdd": "添加客户",
+      "descriptionTextModule": "在此管理客户。",
+      "placeholderSearchBar": "搜索客户...",
+      "newCustomer": "新客户",
+      "tooltipLanguageSwitch": "语言选择不可用，因为没有可翻译字段。"
+    },
+    "customerGroupRegistration": {
+      "alert": "请求加入客户组 \"{name}\"。",
+      "accept": "接受",
+      "acceptMessage": "客户组已更改",
+      "decline": "拒绝",
+      "declineMessage": "请求已被拒绝",
+      "errorMessage": "无法处理请求",
+      "notification": {
+        "title": "商户状态请求",
+        "message": "客户 \"{name}\" 请求加入客户组 \"{groupName}\"。",
+        "openCustomer": "查看客户"
+      }
+    },
+    "card": {
+      "buttonImitateCustomer": "以客户身份登录",
+      "tooltipImitateCustomerGuest": "访客账户无法模拟登录。",
+      "tooltipImitateCustomerInactive": "未激活客户无法模拟登录。",
+      "tooltipImitateCustomerInactiveSalesChannel": "客户所属的销售渠道未激活。",
+      "tooltipImitateCustomerNoDomain": "客户的销售渠道未配置域名。",
+      "tooltipImitateCustomerNoStorefront": "客户的销售渠道类型不是 Storefront。",
+      "placeholderTitle": "称谓",
+      "placeholderFirstName": "名字",
+      "placeholderLastName": "姓氏",
+      "placeholderCompany": "公司",
+      "placeholderEmail": "邮箱地址",
+      "placeholderNewPassword": "输入新密码...",
+      "placeholderNewPasswordConfirm": "再次输入新密码...",
+      "labelSalutation": "称谓",
+      "labelTitle": "称号",
+      "labelFirstName": "名字",
+      "labelLastName": "姓氏",
+      "labelCompany": "公司",
+      "labelEmail": "邮箱",
+      "labelTags": "标签",
+      "labelGuest": "访客账户",
+      "labelVatId": "增值税号",
+      "placeholderVatId": "输入增值税号..."
+    },
+    "list": {
+      "textCustomers": "客户",
+      "textCustomersTotal": "无客户 | 1 位客户 | {count} 位客户",
+      "buttonAddCustomer": "添加客户",
+      "columnCompany": "公司",
+      "columnCustomerNumber": "客户编号",
+      "columnName": "姓名",
+      "columnGroup": "客户组",
+      "columnGroupRequested": "请求",
+      "columnNameGuestLabel": "访客账户",
+      "labelCreatedByAdmin": "管理员创建",
+      "columnFirstName": "名字",
+      "columnLastName": "姓氏",
+      "columnStreet": "街道",
+      "columnZip": "邮编",
+      "columnCity": "城市",
+      "columnEmail": "邮箱",
+      "columnLastLogin": "最后登录",
+      "columnActions": "操作",
+      "columnAffiliateCode": "推广码",
+      "columnCampaignCode": "活动码",
+      "columnBoundSalesChannel": "销售渠道",
+      "columnActive": "激活状态",
+      "columnCreatedAt": "创建时间",
+      "emptyBoundSalesChannel": "全部",
+      "contextMenuView": "查看",
+      "contextMenuDelete": "删除",
+      "contextMenuDuplicate": "复制",
+      "contextMenuEdit": "编辑",
+      "messageEmpty": "暂无客户",
+      "textDeleteConfirm": "确定要删除客户 \"{name}\" 吗？",
+      "buttonDelete": "删除",
+      "titleSidebarItemRefresh": "刷新",
+      "titleSidebarItemFilter": "筛选",
+      "titleSidebarItemFilterAffiliateCode": "推广码",
+      "titleSidebarItemFilterCampaignCode": "活动码",
+      "titleSidebarItemFilterRequestedGroup": "仅显示客户组请求"
+    },
+    "baseForm": {
+      "labelSalutation": "称谓",
+      "labelTitle": "称号",
+      "labelFirstName": "名字",
+      "labelLastName": "姓氏",
+      "labelEmail": "邮箱",
+      "labelPhoneNumber": "电话",
+      "labelCompany": "公司",
+      "labelCustomerGroup": "客户组",
+      "labelSalesChannel": "销售渠道",
+      "labelPaymentMethod": "支付方式",
+      "labelCustomerNumber": "客户编号",
+      "labelBirthday": "出生日期",
+      "labelPassword": "密码",
+      "placeholderPassword": "输入密码...",
+      "helpTextPassword": "保存后，密码只能由客户本人修改。",
+      "placeholderTitle": "输入称号...",
+      "placeholderFirstName": "输入名字...",
+      "placeholderLastName": "输入姓氏...",
+      "placeholderEmail": "输入邮箱...",
+      "placeholderCustomerNumber": "输入客户编号...",
+      "placeholderCustomerGroup": "选择客户组...",
+      "placeholderSalesChannel": "选择销售渠道...",
+      "placeholderPaymentMethod": "选择支付方式...",
+      "labelTags": "标签",
+      "placeholderTags": "选择标签..."
+    },
+    "baseInfo": {
+      "contactEmail": "邮箱",
+      "labelCustomerNumber": "客户编号",
+      "labelCustomerGroup": "客户组",
+      "labelBirthday": "出生日期",
+      "labelLastLogin": "最后登录",
+      "labelLanguage": "语言",
+      "labelOrders": "订单数量",
+      "labelTurnover": "成交额",
+      "labelDefaultPayment": "默认支付方式",
+      "labelActive": "账户状态",
+      "labelConfirmed": "邮箱状态",
+      "labelAffiliateCode": "推广码",
+      "labelCampaignCode": "活动码",
+      "labelCompany": "公司",
+      "labelVatId": "增值税号",
+      "contentActive": "已激活 | 未激活",
+      "contentConfirmed": "已确认 | 未确认",
+      "emptyTextLogin": "暂无登录记录",
+      "emptyTextBirthday": "无信息",
+      "labelBoundSalesChannel": "销售渠道",
+      "emptyBoundSalesChannel": "全部",
+      "helpTextBoundSalesChannel": "客户可登录以下销售渠道",
+      "placeholderCustomerAffiliateCode": "输入推广码...",
+      "placeholderCustomerCampaignCode": "输入活动码..."
+    },
+    "detailBase": {
+      "labelAccountCard": "账户",
+      "labelAddressesCard": "地址",
+      "labelOrderCard": "订单",
+      "titleDefaultShippingAddress": "默认收货地址",
+      "titleDefaultBillingAddress": "默认账单地址",
+      "buttonAddAddress": "添加地址",
+      "buttonTitleEditAddress": "编辑地址",
+      "buttonSave": "保存",
+      "buttonEdit": "编辑客户",
+      "buttonChangePassword": "修改密码",
+      "labelAccountActiveField": "账户已激活"
+    },
+    "detailAddresses": {
+      "buttonAddAddress": "添加地址",
+      "buttonClose": "关闭",
+      "buttonDelete": "删除",
+      "buttonSelect": "选择",
+      "buttonSaveAndSelect": "保存并选择",
+      "modalTitleAddress": "地址",
+      "modalTitleAddAddress": "添加地址",
+      "modalTitleEditAddress": "编辑地址",
+      "textDeleteAddressConfirm": "确定要删除此地址吗？",
+      "columnDefaultShippingAddress": "默认收货地址",
+      "columnDefaultBillingAddress": "默认账单地址",
+      "columnCompany": "公司",
+      "columnFirstName": "名字",
+      "columnLastName": "姓氏",
+      "columnStreet": "街道",
+      "columnZipCode": "邮编",
+      "columnCity": "城市",
+      "columnActions": "操作",
+      "contextMenuEdit": "编辑",
+      "contextMenuDelete": "删除",
+      "contextMenuDuplicate": "复制",
+      "contextMenuDefaultShippingAddress": "设为默认收货地址",
+      "contextMenuDefaultBillingAddress": "设为默认账单地址"
+    },
+    "detailOrder": {
+      "searchbarPlaceholder": "搜索订单",
+      "columnNumber": "订单号",
+      "columnAmount": "订单金额",
+      "columnOrderState": "订单状态",
+      "columnOrderDate": "下单日期",
+      "columnContextOpenOrder": "打开订单",
+      "emptyTitle": "暂无订单",
+      "emptySearchTitle": "未找到结果",
+      "emptySubline": "在此管理客户的订单",
+      "buttonCreateOrder": "添加订单",
+      "ordersTitle": "订单"
+    },
+    "imitateCustomerModal": {
+      "modalTitle": "以 {firstname} {lastname} 登录",
+      "modalDescription": "选择要以 {firstname} {lastname} 登录的销售渠道。",
+      "modalInfo": "请完成操作后记得 {logout}。",
+      "modalInfoLogout": "退出登录",
+      "modalInfoNoDomains": "未找到有效域名，请检查销售渠道设置。",
+      "labelCancel": "关闭"
+    },
+    "addressForm": {
+      "labelCompany": "公司",
+      "labelDepartment": "部门",
+      "labelSalutation": "称谓",
+      "labelTitle": "称号",
+      "labelFirstName": "名字",
+      "labelLastName": "姓氏",
+      "labelZipcode": "邮编",
+      "labelStreet": "街道",
+      "labelCity": "城市",
+      "labelCountry": "国家",
+      "labelState": "州/省",
+      "labelAdditionalAddressLine1": "地址附加行 1",
+      "labelAdditionalAddressLine2": "地址附加行 2",
+      "labelPhoneNumber": "电话",
+      "labelVatId": "增值税号",
+      "labelSameBillingAddress": "与账单地址相同",
+      "placeholderCompany": "输入公司...",
+      "placeholderDepartment": "输入部门...",
+      "placeholderTitle": "输入称号...",
+      "placeholderFirstName": "输入名字...",
+      "placeholderLastName": "输入姓氏...",
+      "placeholderZipcode": "输入邮编...",
+      "placeholderStreet": "输入街道...",
+      "placeholderCity": "输入城市...",
+      "placeholderCountry": "选择国家...",
+      "placeholderState": "选择州/省...",
+      "placeholderAdditionalAddressLine1": "输入地址附加行 1...",
+      "placeholderAdditionalAddressLine2": "输入地址附加行 2...",
+      "placeholderPhoneNumber": "输入电话...",
+      "placeholderVatId": "输入增值税号..."
+    },
+    "detail": {
+      "buttonSave": "保存",
+      "buttonEdit": "编辑",
+      "tabGeneral": "基本信息",
+      "tabAddresses": "地址",
+      "messageSaveError": "客户信息保存失败。",
+      "messageSaveSuccess": "客户 \"{name}\" 已保存。",
+      "notificationPasswordErrorMessage": "提交的密码不匹配。",
+      "notificationImitateCustomerErrorMessage": "模拟登录客户失败，请确保允许弹出窗口。",
+      "labelCreatedByAdmin": "管理员创建"
+    },
+    "filter": {
+      "customerNumber": {
+        "label": "客户编号",
+        "placeholder": "输入客户编号..."
+      },
+      "status": {
+        "label": "状态",
+        "placeholder": "选择状态..."
+      },
+      "customerGroup": {
+        "label": "客户组",
+        "placeholder": "选择客户组..."
+      },
+      "billingCountry": {
+        "label": "账单国家",
+        "placeholder": "选择账单国家..."
+      },
+      "shippingCountry": {
+        "label": "收货国家",
+        "placeholder": "选择收货国家..."
+      },
+      "tags": {
+        "label": "标签",
+        "placeholder": "选择标签..."
+      },
+      "affiliateCode": {
+        "label": "推广码",
+        "placeholder": "输入推广码..."
+      },
+      "campaignCode": {
+        "label": "活动码",
+        "placeholder": "输入活动码..."
+      },
+      "customerGroupRequest": {
+        "label": "客户组请求",
+        "placeholder": "选择请求状态...",
+        "textHasCriteria": "有未处理客户组请求",
+        "textNoCriteria": "无客户组请求"
+      },
+      "messageEmptyTitle": "未找到结果",
+      "messageEmptySubline": "修改筛选条件以查看结果。"
+    },
+    "customerType": {
+      "labelAccountType": "客户类型",
+      "placeholderAccountType": "选择客户类型...",
+      "labelPrivate": "个人",
+      "labelBusiness": "商业"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "customer": {
+        "label": "客户"
+      }
+    }
+  }
+}

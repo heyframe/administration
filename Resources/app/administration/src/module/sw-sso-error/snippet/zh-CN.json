@@ -1,0 +1,15 @@
+{
+  "sw-sso-error": {
+    "general": {
+      "title": "SSO 错误",
+      "description": "HeyFrame 登录错误"
+    },
+    "error-card": {
+      "title": "无权访问此商店",
+      "text": "您的登录已成功，但您没有访问此 HeyFrame 商店的权限。",
+      "button": "使用其他账户登录",
+      "loggedInAsPrefix": "已登录为：",
+      "logoAltText": "HeyFrame 标志"
+    }
+  }
+}

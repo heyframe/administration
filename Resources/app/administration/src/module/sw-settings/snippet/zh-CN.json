@@ -1,0 +1,33 @@
+{
+  "sw-settings": {
+    "general": {
+      "mainMenuItemGeneral": "设置"
+    },
+    "index": {
+      "title": "设置",
+      "tabShop": "商店",
+      "tabSystem": "系统",
+      "tabGeneral": "通用",
+      "tabLocalization": "本地化",
+      "tabCustomer": "客户",
+      "tabCommerce": "电商",
+      "tabContent": "内容",
+      "tabAutomation": "自动化",
+      "tabPlugins": "扩展",
+      "textSettingRenameBanner": "设置 <b>Scale units</b> 已重命名为 <b>商品单位</b>。"
+    },
+    "system-config": {
+      "labelSalesChannelSelect": "销售渠道",
+      "inherited": "继承",
+      "compileNotice": "此配置包含可在主题中使用的字段，请编译主题以查看更改效果。",
+      "scssHelpText": "SCSS 变量名："
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "system": {
+        "system_config": "基础配置"
+      }
+    }
+  }
+}
