@@ -98,7 +98,6 @@ export default {
             criteria.addAssociation('salesChannel');
             criteria.addAssociation('orderCustomer');
             criteria.addAssociation('currency');
-            criteria.addAssociation('documents');
 
             criteria.addAssociation('stateMachineState');
 
@@ -229,13 +228,6 @@ export default {
                     placeholder: this.$tc('sw-order.filters.promotionCodeFilter.placeholder'),
                     valueProperty: 'key',
                     labelProperty: 'key',
-                },
-                'document-filter': {
-                    property: 'documents',
-                    label: this.$tc('sw-order.filters.documentFilter.label'),
-                    placeholder: this.$tc('sw-order.filters.documentFilter.placeholder'),
-                    optionHasCriteria: this.$tc('sw-order.filters.documentFilter.textHasCriteria'),
-                    optionNoCriteria: this.$tc('sw-order.filters.documentFilter.textNoCriteria'),
                 },
                 'payment-method-filter': {
                     property: 'transactions.paymentMethod',
@@ -381,12 +373,8 @@ export default {
             });
         },
 
-        disableDeletion(order) {
-            if (!this.acl.can('order.deleter')) {
-                return true;
-            }
-
-            return order.documents.length > 0;
+        disableDeletion() {
+            return !this.acl.can('order.deleter');
         },
 
         getOrderColumns() {

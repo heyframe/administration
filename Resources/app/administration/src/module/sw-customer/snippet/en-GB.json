@@ -108,7 +108,6 @@
       "labelPassword": "Password",
       "placeholderPassword": "Enter password...",
       "helpTextPassword": "After saving the customer the password can only be changed directly by the customer.",
-      "placeholderSalutation": "Select salutation...",
       "placeholderTitle": "Enter title...",
       "placeholderFirstName": "Enter first name...",
       "placeholderLastName": "Enter last name...",
@@ -224,7 +223,6 @@
       "labelSameBillingAddress": "Same as billing address",
       "placeholderCompany": "Enter company...",
       "placeholderDepartment": "Enter department...",
-      "placeholderSalutation": "Select salutation...",
       "placeholderTitle": "Enter title...",
       "placeholderFirstName": "Enter first name...",
       "placeholderLastName": "Enter last name...",
@@ -253,10 +251,6 @@
       "customerNumber": {
         "label": "Customer number",
         "placeholder": "Enter customer number..."
-      },
-      "salutation": {
-        "label": "Salutation",
-        "placeholder": "Select salutation..."
       },
       "status": {
         "label": "Status",

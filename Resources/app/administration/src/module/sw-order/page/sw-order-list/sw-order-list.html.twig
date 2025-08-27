@@ -245,7 +245,7 @@
                     {% block sw_order_list_grid_columns_actions_delete %}
                     <sw-context-menu-item
                         variant="danger"
-                        :disabled="disableDeletion(item)"
+                        :disabled="disableDeletion()"
                         @click="onDelete(item.id)"
                     >
                         {{ $tc('sw-order.list.contextMenuDelete') }}

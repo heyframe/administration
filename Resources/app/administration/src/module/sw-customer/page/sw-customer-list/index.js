@@ -20,7 +20,6 @@ export default {
 
     mixins: [
         Mixin.getByName('notification'),
-        Mixin.getByName('salutation'),
         Mixin.getByName('listing'),
     ],
 
@@ -50,7 +49,6 @@ export default {
                 'affiliate-code-filter',
                 'campaign-code-filter',
                 'customer-group-request-filter',
-                'salutation-filter',
                 'account-status-filter',
                 'default-payment-method-filter',
                 'group-filter',
@@ -156,12 +154,6 @@ export default {
                     optionHasCriteria: this.$tc('sw-customer.filter.customerGroupRequest.textHasCriteria'),
                     optionNoCriteria: this.$tc('sw-customer.filter.customerGroupRequest.textNoCriteria'),
                 },
-                'salutation-filter': {
-                    property: 'salutation',
-                    label: this.$tc('sw-customer.filter.salutation.label'),
-                    placeholder: this.$tc('sw-customer.filter.salutation.placeholder'),
-                    labelProperty: 'displayName',
-                },
                 'account-status-filter': {
                     property: 'active',
                     label: this.$tc('sw-customer.filter.status.label'),
@@ -230,7 +222,7 @@ export default {
             promise
                 .then(() => {
                     this.createNotificationSuccess({
-                        message: this.$tc('sw-customer.detail.messageSaveSuccess', { name: this.salutation(customer) }, 0),
+                        message: this.$tc('sw-customer.detail.messageSaveSuccess', { name: customer.nickname }, 0),
                     });
                 })
                 .catch(() => {

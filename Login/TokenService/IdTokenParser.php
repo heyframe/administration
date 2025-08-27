@@ -2,6 +2,10 @@
 
 namespace HeyFrame\Administration\Login\TokenService;
 
+use HeyFrame\Administration\Login\Config\LoginConfig;
+use HeyFrame\Administration\Login\Config\LoginConfigService;
+use HeyFrame\Administration\Login\LoginException;
+use HeyFrame\Core\Framework\Log\Package;
 use Lcobucci\JWT\Encoding\JoseEncoder;
 use Lcobucci\JWT\Signer\Rsa\Sha256;
 use Lcobucci\JWT\Token\Parser;
@@ -11,10 +15,6 @@ use Lcobucci\JWT\Validation\Constraint\LooseValidAt;
 use Lcobucci\JWT\Validation\Constraint\SignedWith;
 use Lcobucci\JWT\Validation\Validator;
 use Lcobucci\JWT\Validator as ValidatorInterface;
-use HeyFrame\Administration\Login\Config\LoginConfig;
-use HeyFrame\Administration\Login\Config\LoginConfigService;
-use HeyFrame\Administration\Login\LoginException;
-use HeyFrame\Core\Framework\Log\Package;
 use Symfony\Component\Clock\ClockInterface;
 
 /**

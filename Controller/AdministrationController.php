@@ -3,8 +3,6 @@
 namespace HeyFrame\Administration\Controller;
 
 use Doctrine\DBAL\Connection;
-use League\Flysystem\FilesystemException;
-use League\Flysystem\FilesystemOperator;
 use HeyFrame\Administration\Events\PreResetExcludedSearchTermEvent;
 use HeyFrame\Administration\Framework\Routing\AdministrationRouteScope;
 use HeyFrame\Administration\Framework\Routing\KnownIps\KnownIpsCollectorInterface;
@@ -35,6 +33,8 @@ use HeyFrame\Core\Framework\Validation\Exception\ConstraintViolationException;
 use HeyFrame\Core\PlatformRequest;
 use HeyFrame\Core\System\Currency\CurrencyCollection;
 use HeyFrame\Core\System\SystemConfig\SystemConfigService;
+use League\Flysystem\FilesystemException;
+use League\Flysystem\FilesystemOperator;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;

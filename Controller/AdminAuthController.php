@@ -2,12 +2,12 @@
 
 namespace HeyFrame\Administration\Controller;
 
-use League\OAuth2\Server\AuthorizationServer;
 use HeyFrame\Administration\Login\Config\LoginConfigService;
 use HeyFrame\Administration\Login\LoginException;
 use HeyFrame\Administration\Login\LoginResponseService;
 use HeyFrame\Administration\Login\StateValidator;
 use HeyFrame\Core\Framework\Log\Package;
+use League\OAuth2\Server\AuthorizationServer;
 use Symfony\Bridge\PsrHttpMessage\HttpMessageFactoryInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;

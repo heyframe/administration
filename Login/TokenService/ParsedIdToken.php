@@ -2,9 +2,9 @@
 
 namespace HeyFrame\Administration\Login\TokenService;
 
-use Lcobucci\JWT\Token\DataSet;
 use HeyFrame\Administration\Login\LoginException;
 use HeyFrame\Core\Framework\Log\Package;
+use Lcobucci\JWT\Token\DataSet;
 use Symfony\Component\Validator\Constraints\Collection;
 use Symfony\Component\Validator\Constraints\Email;
 use Symfony\Component\Validator\Constraints\NotBlank;

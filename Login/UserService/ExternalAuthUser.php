@@ -2,10 +2,10 @@
 
 namespace HeyFrame\Administration\Login\UserService;
 
-use League\OAuth2\Server\Entities\UserEntityInterface;
 use HeyFrame\Administration\Login\LoginException;
 use HeyFrame\Core\Framework\Log\Package;
 use HeyFrame\Core\Framework\Uuid\Uuid;
+use League\OAuth2\Server\Entities\UserEntityInterface;
 use Symfony\Component\Validator\Constraints\Collection;
 use Symfony\Component\Validator\Constraints\Email;
 use Symfony\Component\Validator\Constraints\NotBlank;

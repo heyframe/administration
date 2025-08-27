@@ -2,8 +2,8 @@
 
 namespace HeyFrame\Administration\Controller\Exception;
 
-use HeyFrame\Core\Framework\Log\Package;
 use HeyFrame\Core\Framework\HeyFrameHttpException;
+use HeyFrame\Core\Framework\Log\Package;
 
 #[Package('framework')]
 class MissingShopUrlException extends HeyFrameHttpException

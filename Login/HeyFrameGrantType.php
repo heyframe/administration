@@ -2,6 +2,10 @@
 
 namespace HeyFrame\Administration\Login;
 
+use HeyFrame\Administration\Login\TokenService\ExternalTokenService;
+use HeyFrame\Administration\Login\UserService\ExternalAuthUser;
+use HeyFrame\Administration\Login\UserService\UserService;
+use HeyFrame\Core\Framework\Log\Package;
 use League\OAuth2\Server\Grant\AbstractGrant;
 use League\OAuth2\Server\Repositories\RefreshTokenRepositoryInterface;
 use League\OAuth2\Server\RequestAccessTokenEvent;
@@ -9,10 +13,6 @@ use League\OAuth2\Server\RequestEvent;
 use League\OAuth2\Server\RequestRefreshTokenEvent;
 use League\OAuth2\Server\ResponseTypes\ResponseTypeInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use HeyFrame\Administration\Login\TokenService\ExternalTokenService;
-use HeyFrame\Administration\Login\UserService\ExternalAuthUser;
-use HeyFrame\Administration\Login\UserService\UserService;
-use HeyFrame\Core\Framework\Log\Package;
 
 /**
  * @internal
