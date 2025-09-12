@@ -1,11 +1,12 @@
-import template from './sw-settings-store.html.twig';
+/**
+ * @sw-package discovery
+ */
+
+import template from './sw-settings-sitemap.html.twig';
 
 const { Mixin } = HeyFrame;
 
-/**
- * @sw-package checkout
- * @private
- */
+// eslint-disable-next-line sw-deprecation-rules/private-feature-declarations
 export default {
     template,
 
@@ -18,10 +19,6 @@ export default {
             isLoading: false,
             isSaveSuccessful: false,
         };
-    },
-
-    saveFinish() {
-        this.isSaveSuccessful = false;
     },
 
     metaInfo() {
@@ -39,8 +36,6 @@ export default {
             this.isSaveSuccessful = false;
             this.isLoading = true;
 
-            this.trimHost();
-
             this.$refs.systemConfig
                 .saveAll()
                 .then(() => {
@@ -53,14 +48,6 @@ export default {
                         message: err,
                     });
                 });
-        },
-
-        trimHost() {
-            const actualConfigData = this.$refs.systemConfig.actualConfigData;
-
-            if (actualConfigData.null?.['core.store.licenseHost']) {
-                actualConfigData.null['core.store.licenseHost'] = actualConfigData.null['core.store.licenseHost'].trim();
-            }
         },
 
         onLoadingChanged(loading) {
