@@ -1,0 +1,1 @@
+const e=`{% block sw_cms_block_image_cover_preview %} <div class="sw-cms-preview-image-cover"> <img :src="assetFilter('/administration/administration/static/img/cms/preview_mountain_small.jpg')" alt="" > </div> {% endblock %}`,t={template:e,computed:{assetFilter(){return HeyFrame.Filter.getByName("asset")}}};export{t as default};

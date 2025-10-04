@@ -1,0 +1,1 @@
+import{O as o,q as r}from"./channel-Bk0ZD-Fo.js";const p=HeyFrame.Component.wrapComponentConfig({template:"<slot />",inheritAttrs:!1,setup(s,{attrs:e}){return Object.keys(e).forEach(t=>o(HeyFrame.Utils.string.camelCase(t),r(()=>e[t]))),{}}});export{p as default};

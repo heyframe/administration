@@ -1,0 +1,1 @@
+import{A as n}from"./api.service-FQsMmSNx.js";import"./channel-Bk0ZD-Fo.js";class p extends n{constructor(e,s,t="business-events"){super(e,s,t),this.name="businessEventService"}getBusinessEvents(e={},s={}){const t=e,i=this.getBasicHeaders(s);return this.httpClient.get("/_info/events.json",{params:t,headers:i}).then(r=>n.handleResponse(r))}}export{p as default};
