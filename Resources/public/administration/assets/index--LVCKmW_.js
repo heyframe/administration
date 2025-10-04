@@ -1,0 +1,1 @@
+const e='{% block sw_skeleton_bar %} <div class="sw-skeleton-bar"> <div class="sw-skeleton-bar__shimmer"></div> </div> {% endblock %}',s=HeyFrame.Component.wrapComponentConfig({template:e});export{s as default};

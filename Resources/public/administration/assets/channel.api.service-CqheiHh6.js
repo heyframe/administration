@@ -1,0 +1,1 @@
+import{A as s}from"./api.service-FQsMmSNx.js";import"./channel-Bk0ZD-Fo.js";class o extends s{constructor(e,t,n="channel"){super(e,t,n),this.name="channelService"}generateKey(e={},t={}){const n=e,a=this.getBasicHeaders(t);return this.httpClient.get("/_action/access-key/channel",{params:n,headers:a}).then(r=>s.handleResponse(r))}}export{o as default};
