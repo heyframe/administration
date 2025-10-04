@@ -1,0 +1,1 @@
+import{L as n,K as t}from"./channel-Bk0ZD-Fo.js";import{p as r}from"./parents-injection-key-DnJmY2uO.js";const s=HeyFrame.Component.wrapComponentConfig({setup(){var e;return{parent:(e=t(r,null))==null?void 0:e.value.pop()}},render(){return n(()=>this.parent)}});export{s as default};

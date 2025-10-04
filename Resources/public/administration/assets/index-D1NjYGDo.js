@@ -1,0 +1,1 @@
+const e='<sw-block name="sw_dashboard_index"> <sw-page class="sw-dashboard-index" :show-smart-bar="false" > </sw-page> </sw-block>',a=HeyFrame.Component.wrapComponentConfig({template:e,data(){return{}},metaInfo(){return{title:this.$createTitle()}}});export{a as default};
