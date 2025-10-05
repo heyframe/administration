@@ -20,7 +20,6 @@ export default {
 
     mixins: [
         Mixin.getByName('notification'),
-        Mixin.getByName('salutation'),
         Mixin.getByName('listing'),
     ],
 
@@ -32,30 +31,12 @@ export default {
             sortDirection: 'DESC',
             isLoading: false,
             showDeleteModal: false,
-            /**
-             * @deprecated tag:v6.8.0 - will be removed without replacement
-             */
-            filterLoading: false,
-            /**
-             * @deprecated tag:v6.8.0 - will be removed without replacement
-             */
-            availableAffiliateCodes: [],
-            /**
-             * @deprecated tag:v6.8.0 - will be removed without replacement
-             */
-            availableCampaignCodes: [],
             filterCriteria: [],
             defaultFilters: [
                 'customer-number-filter',
-                'affiliate-code-filter',
-                'campaign-code-filter',
-                'customer-group-request-filter',
-                'salutation-filter',
                 'account-status-filter',
                 'default-payment-method-filter',
                 'group-filter',
-                'billing-address-country-filter',
-                'shipping-address-country-filter',
                 'tags-filter',
             ],
             storeKey: 'grid.filter.customer',
@@ -171,7 +152,7 @@ export default {
             promise
                 .then(() => {
                     this.createNotificationSuccess({
-                        message: this.$tc('sw-customer.detail.messageSaveSuccess', { name: this.salutation(customer) }, 0),
+                        message: this.$tc('sw-customer.detail.messageSaveSuccess', { name: customer.nickname }, 0),
                     });
                 })
                 .catch(() => {
@@ -241,10 +222,10 @@ export default {
         getCustomerColumns() {
             const columns = [
                 {
-                    property: 'firstName',
-                    dataIndex: 'lastName,firstName',
+                    property: 'nickname',
+                    dataIndex: 'nickname',
                     inlineEdit: 'string',
-                    label: 'sw-customer.list.columnName',
+                    label: 'sw-customer.list.columnNickname',
                     routerLink: 'sw.customer.detail',
                     width: '250px',
                     allowResize: true,
@@ -252,8 +233,8 @@ export default {
                     useCustomSort: true,
                 },
                 {
-                    property: 'company',
-                    label: 'sw-customer.list.columnCompany',
+                    property: 'phoneNumber',
+                    label: 'sw-customer.list.columnPhone',
                     allowResize: true,
                     visible: false,
                     useCustomSort: true,
@@ -289,6 +270,13 @@ export default {
                     property: 'boundChannelId',
                     label: 'sw-customer.list.columnBoundChannel',
                     allowResize: true,
+                    visible: true,
+                    useCustomSort: true,
+                },
+                {
+                    property: 'name',
+                    label: 'sw-customer.list.columnName',
+                    allowResize: true,
                     visible: false,
                     useCustomSort: true,
                 },
@@ -297,7 +285,7 @@ export default {
                     inlineEdit: 'boolean',
                     label: 'sw-customer.list.columnActive',
                     allowResize: true,
-                    visible: false,
+                    visible: true,
                     useCustomSort: true,
                 },
                 {
@@ -308,26 +296,6 @@ export default {
             ];
 
             return columns;
-        },
-
-        /**
-         * @deprecated tag:v6.8.0 - will be removed without replacement
-         */
-        loadFilterValues() {
-            this.filterLoading = true;
-
-            return this.customerRepository
-                .search(this.filterSelectCriteria)
-                .then(({ aggregations }) => {
-                    this.availableAffiliateCodes = aggregations?.affiliateCodes?.buckets ?? [];
-                    this.availableCampaignCodes = aggregations?.campaignCodes?.buckets ?? [];
-                    this.filterLoading = false;
-
-                    return aggregations;
-                })
-                .catch(() => {
-                    this.filterLoading = false;
-                });
         },
 
         updateCriteria(criteria) {
